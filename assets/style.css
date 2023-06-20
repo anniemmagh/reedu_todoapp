@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+  }
+
+  .todo-app {
+    max-width: 600px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  .header {
+    background-image: url("/assets/imgg.png");
+    background-size: cover;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .date {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  .time {
+    font-size: 18px;
+  }
+
+  .task-section {
+    margin: 20px;
+  }
+
+  .task-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  .task-item .task-info {
+    flex-grow: 1;
+    margin-right: 10px;
+  }
+
+  .task-item .task-icons {
+    display: flex;
+    align-items: center;
+  }
+
+  .task-item .task-icons i {
+    cursor: pointer;
+    margin-right: 5px;
+  }
+
+  .add-task {
+    display: flex;
+    margin-bottom: 10px;
+  }
+
+  .add-task input[type="text"] {
+    flex-grow: 1;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+
+  .add-task button {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .task-item.completed {
+    text-decoration: line-through;
+    color: #aaa;
+  }
+  
